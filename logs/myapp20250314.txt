@@ -1,0 +1,10 @@
+2025-03-14 00:00:31.077 +06:00 [DBG] Connection id "0HNB2B2MBKMJO" received FIN.
+2025-03-14 00:00:31.083 +06:00 [DBG] Connection id "0HNB2B2MBKMJO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-14 00:00:31.114 +06:00 [DBG] Connection id "0HNB2B2MBKMJO" disconnecting.
+2025-03-14 00:00:31.116 +06:00 [DBG] Connection id "0HNB2B2MBKMJO" stopped.
+2025-03-14 00:01:35.803 +06:00 [DBG] Connection id "0HNB2B2MBKMJP" received FIN.
+2025-03-14 00:01:35.821 +06:00 [DBG] Connection id "0HNB2B2MBKMJP" is closing.
+2025-03-14 00:01:35.823 +06:00 [DBG] Connection id "0HNB2B2MBKMJP" is closed. The last processed stream ID was 27.
+2025-03-14 00:01:35.824 +06:00 [DBG] The connection queue processing loop for 0HNB2B2MBKMJP completed.
+2025-03-14 00:01:35.826 +06:00 [DBG] Connection id "0HNB2B2MBKMJP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-14 00:01:35.832 +06:00 [DBG] Connection id "0HNB2B2MBKMJP" stopped.

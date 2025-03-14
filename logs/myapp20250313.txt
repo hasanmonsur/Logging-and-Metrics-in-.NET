@@ -1,0 +1,584 @@
+2025-03-13 06:41:07.558 +06:00 [INF] Now listening on: https://localhost:7173
+2025-03-13 06:41:07.598 +06:00 [INF] Now listening on: http://localhost:5263
+2025-03-13 06:41:07.652 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-13 06:41:07.655 +06:00 [INF] Hosting environment: Development
+2025-03-13 06:41:07.657 +06:00 [INF] Content root path: D:\TestProject\LoggingMetricsWebApi
+2025-03-13 06:43:08.856 +06:00 [INF] Now listening on: https://localhost:7173
+2025-03-13 06:43:08.908 +06:00 [INF] Now listening on: http://localhost:5263
+2025-03-13 06:43:08.969 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-13 06:43:08.970 +06:00 [INF] Hosting environment: Development
+2025-03-13 06:43:08.972 +06:00 [INF] Content root path: D:\TestProject\LoggingMetricsWebApi
+2025-03-13 06:43:34.653 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5263/ - null null
+2025-03-13 06:43:34.932 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5263/ - 307 0 null 287.6342ms
+2025-03-13 06:43:35.009 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/ - null null
+2025-03-13 06:43:35.022 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/ - 404 0 null 12.6647ms
+2025-03-13 06:43:35.029 +06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7173/, Response status code: 404
+2025-03-13 06:43:39.582 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger - null null
+2025-03-13 06:43:39.590 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger - 301 0 null 7.9571ms
+2025-03-13 06:43:39.594 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger/index.html - null null
+2025-03-13 06:43:39.677 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger/index.html - 200 null text/html;charset=utf-8 82.3399ms
+2025-03-13 06:43:39.684 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger/swagger-ui.css - null null
+2025-03-13 06:43:39.684 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger/index.css - null null
+2025-03-13 06:43:39.710 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger/swagger-ui-bundle.js - null null
+2025-03-13 06:43:39.726 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger/swagger-ui-standalone-preset.js - null null
+2025-03-13 06:43:39.727 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger/index.js - null null
+2025-03-13 06:43:39.739 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-13 06:43:39.825 +06:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-13 06:43:39.828 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger/index.js - 200 null application/javascript;charset=utf-8 101.7231ms
+2025-03-13 06:43:39.897 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger/index.css - 200 202 text/css 212.5034ms
+2025-03-13 06:43:39.802 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/_vs/browserLink - null null
+2025-03-13 06:43:39.923 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 184.8166ms
+2025-03-13 06:43:39.932 +06:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-13 06:43:39.932 +06:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-13 06:43:39.967 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger/swagger-ui.css - 200 154948 text/css 282.6631ms
+2025-03-13 06:43:39.967 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 240.5137ms
+2025-03-13 06:43:39.972 +06:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-13 06:43:39.982 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger/swagger-ui-bundle.js - 200 1466324 text/javascript 296.8973ms
+2025-03-13 06:43:40.001 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/_vs/browserLink - 200 null text/javascript; charset=UTF-8 249.2498ms
+2025-03-13 06:43:40.286 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger/v1/swagger.json - null null
+2025-03-13 06:43:40.303 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.6751ms
+2025-03-13 06:43:40.322 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger/favicon-32x32.png - null null
+2025-03-13 06:43:40.327 +06:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-03-13 06:43:40.331 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger/favicon-32x32.png - 200 628 image/png 8.8378ms
+2025-03-13 06:43:43.971 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/WeatherForecast - null null
+2025-03-13 06:43:43.980 +06:00 [INF] Executing endpoint 'LoggingMetricsWebApi.Controllers.WeatherForecastController.Get (LoggingMetricsWebApi)'
+2025-03-13 06:43:44.005 +06:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[LoggingMetricsWebApi.Models.WeatherForecast] Get() on controller LoggingMetricsWebApi.Controllers.WeatherForecastController (LoggingMetricsWebApi).
+2025-03-13 06:43:44.014 +06:00 [INF] Fetching weather forecasts
+2025-03-13 06:43:44.023 +06:00 [INF] Executing ObjectResult, writing value of type 'LoggingMetricsWebApi.Models.WeatherForecast[]'.
+2025-03-13 06:43:44.045 +06:00 [INF] Executed action LoggingMetricsWebApi.Controllers.WeatherForecastController.Get (LoggingMetricsWebApi) in 31.1484ms
+2025-03-13 06:43:44.049 +06:00 [INF] Executed endpoint 'LoggingMetricsWebApi.Controllers.WeatherForecastController.Get (LoggingMetricsWebApi)'
+2025-03-13 06:43:44.050 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/WeatherForecast - 200 null application/json; charset=utf-8 79.8578ms
+2025-03-13 06:43:56.729 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/WeatherForecast - null null
+2025-03-13 06:43:56.735 +06:00 [INF] Executing endpoint 'LoggingMetricsWebApi.Controllers.WeatherForecastController.Get (LoggingMetricsWebApi)'
+2025-03-13 06:43:56.737 +06:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[LoggingMetricsWebApi.Models.WeatherForecast] Get() on controller LoggingMetricsWebApi.Controllers.WeatherForecastController (LoggingMetricsWebApi).
+2025-03-13 06:43:56.740 +06:00 [INF] Fetching weather forecasts
+2025-03-13 06:43:56.742 +06:00 [INF] Executing ObjectResult, writing value of type 'LoggingMetricsWebApi.Models.WeatherForecast[]'.
+2025-03-13 06:43:56.744 +06:00 [INF] Executed action LoggingMetricsWebApi.Controllers.WeatherForecastController.Get (LoggingMetricsWebApi) in 4.3048ms
+2025-03-13 06:43:56.747 +06:00 [INF] Executed endpoint 'LoggingMetricsWebApi.Controllers.WeatherForecastController.Get (LoggingMetricsWebApi)'
+2025-03-13 06:43:56.750 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/WeatherForecast - 200 null application/json; charset=utf-8 20.9802ms
+2025-03-13 06:43:57.084 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/WeatherForecast - null null
+2025-03-13 06:43:57.102 +06:00 [INF] Executing endpoint 'LoggingMetricsWebApi.Controllers.WeatherForecastController.Get (LoggingMetricsWebApi)'
+2025-03-13 06:43:57.104 +06:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[LoggingMetricsWebApi.Models.WeatherForecast] Get() on controller LoggingMetricsWebApi.Controllers.WeatherForecastController (LoggingMetricsWebApi).
+2025-03-13 06:43:57.107 +06:00 [INF] Fetching weather forecasts
+2025-03-13 06:43:57.109 +06:00 [INF] Executing ObjectResult, writing value of type 'LoggingMetricsWebApi.Models.WeatherForecast[]'.
+2025-03-13 06:43:57.111 +06:00 [INF] Executed action LoggingMetricsWebApi.Controllers.WeatherForecastController.Get (LoggingMetricsWebApi) in 3.8877ms
+2025-03-13 06:43:57.114 +06:00 [INF] Executed endpoint 'LoggingMetricsWebApi.Controllers.WeatherForecastController.Get (LoggingMetricsWebApi)'
+2025-03-13 06:43:57.116 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/WeatherForecast - 200 null application/json; charset=utf-8 32.3782ms
+2025-03-13 06:46:51.147 +06:00 [INF] Now listening on: https://localhost:7173
+2025-03-13 06:46:51.190 +06:00 [INF] Now listening on: http://localhost:5263
+2025-03-13 06:46:51.241 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-13 06:46:51.243 +06:00 [INF] Hosting environment: Development
+2025-03-13 06:46:51.245 +06:00 [INF] Content root path: D:\TestProject\LoggingMetricsWebApi
+2025-03-13 06:50:46.246 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-13 06:50:46.379 +06:00 [DBG] Hosting starting
+2025-03-13 06:50:46.588 +06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-03-13 06:50:46.595 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-13 06:50:46.794 +06:00 [INF] Now listening on: https://localhost:7173
+2025-03-13 06:50:46.796 +06:00 [INF] Now listening on: http://localhost:5263
+2025-03-13 06:50:46.798 +06:00 [DBG] Loaded hosting startup assembly LoggingMetricsWebApi
+2025-03-13 06:50:46.799 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-03-13 06:50:46.801 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-03-13 06:50:46.802 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-03-13 06:50:46.815 +06:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-03-13 06:50:46.817 +06:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-03-13 06:50:46.886 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-13 06:50:46.888 +06:00 [INF] Hosting environment: Development
+2025-03-13 06:50:46.889 +06:00 [INF] Content root path: D:\TestProject\LoggingMetricsWebApi
+2025-03-13 06:50:46.891 +06:00 [DBG] Hosting started
+2025-03-13 07:02:49.899 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-13 07:02:50.133 +06:00 [DBG] Hosting starting
+2025-03-13 07:02:50.422 +06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-03-13 07:02:50.431 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-13 07:02:50.605 +06:00 [INF] Now listening on: https://localhost:7173
+2025-03-13 07:02:50.608 +06:00 [INF] Now listening on: http://localhost:5263
+2025-03-13 07:02:50.609 +06:00 [DBG] Loaded hosting startup assembly LoggingMetricsWebApi
+2025-03-13 07:02:50.610 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-03-13 07:02:50.612 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-03-13 07:02:50.613 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-03-13 07:02:50.621 +06:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-03-13 07:02:50.624 +06:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-03-13 07:02:50.681 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-13 07:02:50.683 +06:00 [INF] Hosting environment: Development
+2025-03-13 07:02:50.685 +06:00 [INF] Content root path: D:\TestProject\LoggingMetricsWebApi
+2025-03-13 07:02:50.687 +06:00 [DBG] Hosting started
+2025-03-13 07:05:58.322 +06:00 [DBG] Connection id "0HNB1PCRDQO5P" accepted.
+2025-03-13 07:05:58.339 +06:00 [DBG] Connection id "0HNB1PCRDQO5P" started.
+2025-03-13 07:05:58.437 +06:00 [DBG] Connection 0HNB1PCRDQO5P established using the following protocol: "Tls13"
+2025-03-13 07:05:58.523 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/metrics - null null
+2025-03-13 07:05:58.668 +06:00 [DBG] No candidates found for the request path '/metrics'
+2025-03-13 07:05:58.671 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 07:05:58.683 +06:00 [DBG] The request path  does not match the path filter
+2025-03-13 07:05:58.876 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/metrics - 200 null text/plain; version=0.0.4; charset=utf-8 361.3822ms
+2025-03-13 07:05:59.092 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/favicon.ico - null null
+2025-03-13 07:05:59.097 +06:00 [DBG] No candidates found for the request path '/favicon.ico'
+2025-03-13 07:05:59.099 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 07:05:59.103 +06:00 [DBG] The request path  does not match the path filter
+2025-03-13 07:05:59.115 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/favicon.ico - 404 0 null 58.8648ms
+2025-03-13 07:05:59.123 +06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7173/favicon.ico, Response status code: 404
+2025-03-13 07:05:59.525 +06:00 [DBG] Connection id "0HNB1PCRDQO5P" received FIN.
+2025-03-13 07:05:59.530 +06:00 [DBG] The connection queue processing loop for 0HNB1PCRDQO5P completed.
+2025-03-13 07:05:59.533 +06:00 [DBG] Connection id "0HNB1PCRDQO5P" is closed. The last processed stream ID was 3.
+2025-03-13 07:05:59.538 +06:00 [DBG] Connection id "0HNB1PCRDQO5P" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-13 07:05:59.542 +06:00 [DBG] Connection id "0HNB1PCRDQO5P" stopped.
+2025-03-13 07:14:46.053 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-13 07:14:46.187 +06:00 [DBG] Hosting starting
+2025-03-13 07:14:46.418 +06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-03-13 07:14:46.423 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-13 07:14:46.556 +06:00 [INF] Now listening on: https://localhost:7173
+2025-03-13 07:14:46.558 +06:00 [INF] Now listening on: http://localhost:5263
+2025-03-13 07:14:46.559 +06:00 [DBG] Loaded hosting startup assembly LoggingMetricsWebApi
+2025-03-13 07:14:46.560 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-03-13 07:14:46.562 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-03-13 07:14:46.563 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-03-13 07:14:46.570 +06:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-03-13 07:14:46.573 +06:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-03-13 07:14:46.626 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-13 07:14:46.628 +06:00 [INF] Hosting environment: Development
+2025-03-13 07:14:46.630 +06:00 [INF] Content root path: D:\TestProject\LoggingMetricsWebApi
+2025-03-13 07:14:46.631 +06:00 [DBG] Hosting started
+2025-03-13 07:16:27.049 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-13 07:16:27.154 +06:00 [DBG] Hosting starting
+2025-03-13 07:16:27.357 +06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-03-13 07:16:27.362 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-13 07:16:27.481 +06:00 [INF] Now listening on: https://localhost:7173
+2025-03-13 07:16:27.484 +06:00 [INF] Now listening on: http://localhost:5263
+2025-03-13 07:16:27.485 +06:00 [DBG] Loaded hosting startup assembly LoggingMetricsWebApi
+2025-03-13 07:16:27.487 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-03-13 07:16:27.488 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-03-13 07:16:27.489 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-03-13 07:16:27.498 +06:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-03-13 07:16:27.501 +06:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-03-13 07:16:27.549 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-13 07:16:27.552 +06:00 [INF] Hosting environment: Development
+2025-03-13 07:16:27.554 +06:00 [INF] Content root path: D:\TestProject\LoggingMetricsWebApi
+2025-03-13 07:16:27.556 +06:00 [DBG] Hosting started
+2025-03-13 07:16:59.406 +06:00 [DBG] Connection id "0HNB1PJ0EDDKK" accepted.
+2025-03-13 07:16:59.441 +06:00 [DBG] Connection id "0HNB1PJ0EDDKK" started.
+2025-03-13 07:16:59.495 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5263/metrics - null null
+2025-03-13 07:16:59.665 +06:00 [DBG] No candidates found for the request path '/metrics'
+2025-03-13 07:16:59.669 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 07:16:59.679 +06:00 [DBG] The request path  does not match the path filter
+2025-03-13 07:16:59.892 +06:00 [DBG] Connection id "0HNB1PJ0EDDKK" completed keep alive response.
+2025-03-13 07:16:59.897 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5263/metrics - 200 null text/plain; version=0.0.4; charset=utf-8 410.2958ms
+2025-03-13 07:16:59.954 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5263/favicon.ico - null null
+2025-03-13 07:16:59.960 +06:00 [DBG] No candidates found for the request path '/favicon.ico'
+2025-03-13 07:16:59.963 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 07:16:59.969 +06:00 [DBG] The request path  does not match the path filter
+2025-03-13 07:16:59.988 +06:00 [DBG] Connection id "0HNB1PJ0EDDKK" completed keep alive response.
+2025-03-13 07:16:59.990 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5263/favicon.ico - 404 0 null 60.3633ms
+2025-03-13 07:16:59.999 +06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5263/favicon.ico, Response status code: 404
+2025-03-13 07:18:55.753 +06:00 [DBG] Connection id "0HNB1PJ0EDDKK" received FIN.
+2025-03-13 07:18:55.776 +06:00 [DBG] Connection id "0HNB1PJ0EDDKK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-13 07:18:55.779 +06:00 [DBG] Connection id "0HNB1PJ0EDDKK" disconnecting.
+2025-03-13 07:18:55.782 +06:00 [DBG] Connection id "0HNB1PJ0EDDKK" stopped.
+2025-03-13 07:25:42.086 +06:00 [DBG] Connection id "0HNB1PJ0EDDKL" accepted.
+2025-03-13 07:25:42.100 +06:00 [DBG] Connection id "0HNB1PJ0EDDKL" started.
+2025-03-13 07:25:42.114 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5263/metrics - null null
+2025-03-13 07:25:42.117 +06:00 [DBG] Connection id "0HNB1PJ0EDDKM" accepted.
+2025-03-13 07:25:42.125 +06:00 [DBG] Connection id "0HNB1PJ0EDDKM" started.
+2025-03-13 07:25:42.142 +06:00 [DBG] No candidates found for the request path '/metrics'
+2025-03-13 07:25:42.144 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 07:25:42.146 +06:00 [DBG] The request path  does not match the path filter
+2025-03-13 07:25:42.179 +06:00 [DBG] Connection id "0HNB1PJ0EDDKL" completed keep alive response.
+2025-03-13 07:25:42.181 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5263/metrics - 200 null text/plain; version=0.0.4; charset=utf-8 66.9026ms
+2025-03-13 07:25:42.385 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5263/favicon.ico - null null
+2025-03-13 07:25:42.391 +06:00 [DBG] No candidates found for the request path '/favicon.ico'
+2025-03-13 07:25:42.393 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 07:25:42.395 +06:00 [DBG] The request path  does not match the path filter
+2025-03-13 07:25:42.397 +06:00 [DBG] Connection id "0HNB1PJ0EDDKL" completed keep alive response.
+2025-03-13 07:25:42.399 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5263/favicon.ico - 404 0 null 14.5565ms
+2025-03-13 07:25:42.405 +06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5263/favicon.ico, Response status code: 404
+2025-03-13 07:27:14.167 +06:00 [DBG] Connection id "0HNB1PJ0EDDKM" received FIN.
+2025-03-13 07:27:14.170 +06:00 [DBG] Connection id "0HNB1PJ0EDDKM" disconnecting.
+2025-03-13 07:27:14.180 +06:00 [DBG] Connection id "0HNB1PJ0EDDKM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-13 07:27:14.189 +06:00 [DBG] Connection id "0HNB1PJ0EDDKM" stopped.
+2025-03-13 07:27:28.271 +06:00 [DBG] Connection id "0HNB1PJ0EDDKN" accepted.
+2025-03-13 07:27:28.274 +06:00 [DBG] Connection id "0HNB1PJ0EDDKN" started.
+2025-03-13 07:27:28.276 +06:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5263/metrics - null null
+2025-03-13 07:27:28.281 +06:00 [DBG] No candidates found for the request path '/metrics'
+2025-03-13 07:27:28.283 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 07:27:28.285 +06:00 [DBG] The request path  does not match the path filter
+2025-03-13 07:27:28.297 +06:00 [DBG] Connection id "0HNB1PJ0EDDKN" completed keep alive response.
+2025-03-13 07:27:28.299 +06:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5263/metrics - 200 null text/plain; version=0.0.4; charset=utf-8 23.4119ms
+2025-03-13 07:28:33.269 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-13 07:28:33.399 +06:00 [DBG] Hosting starting
+2025-03-13 07:28:33.597 +06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-03-13 07:28:33.601 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-13 07:28:33.715 +06:00 [INF] Now listening on: https://localhost:7173
+2025-03-13 07:28:33.717 +06:00 [INF] Now listening on: http://localhost:5263
+2025-03-13 07:28:33.719 +06:00 [DBG] Loaded hosting startup assembly LoggingMetricsWebApi
+2025-03-13 07:28:33.721 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-03-13 07:28:33.722 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-03-13 07:28:33.723 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-03-13 07:28:33.732 +06:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-03-13 07:28:33.736 +06:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-03-13 07:28:33.798 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-13 07:28:33.800 +06:00 [INF] Hosting environment: Development
+2025-03-13 07:28:33.802 +06:00 [INF] Content root path: D:\TestProject\LoggingMetricsWebApi
+2025-03-13 07:28:33.804 +06:00 [DBG] Hosting started
+2025-03-13 07:29:58.068 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-13 07:29:58.216 +06:00 [DBG] Hosting starting
+2025-03-13 07:29:58.394 +06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-03-13 07:29:58.398 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-13 07:29:58.518 +06:00 [INF] Now listening on: https://localhost:7173
+2025-03-13 07:29:58.520 +06:00 [INF] Now listening on: http://localhost:5263
+2025-03-13 07:29:58.522 +06:00 [DBG] Loaded hosting startup assembly LoggingMetricsWebApi
+2025-03-13 07:29:58.523 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-03-13 07:29:58.524 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-03-13 07:29:58.525 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-03-13 07:29:58.532 +06:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-03-13 07:29:58.535 +06:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-03-13 07:29:58.577 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-13 07:29:58.579 +06:00 [INF] Hosting environment: Development
+2025-03-13 07:29:58.581 +06:00 [INF] Content root path: D:\TestProject\LoggingMetricsWebApi
+2025-03-13 07:29:58.582 +06:00 [DBG] Hosting started
+2025-03-13 07:31:01.729 +06:00 [DBG] Connection id "0HNB1PQRFE3RM" accepted.
+2025-03-13 07:31:01.744 +06:00 [DBG] Connection id "0HNB1PQRFE3RM" started.
+2025-03-13 07:31:01.745 +06:00 [DBG] Connection id "0HNB1PQRFE3RN" accepted.
+2025-03-13 07:31:01.750 +06:00 [DBG] Connection id "0HNB1PQRFE3RN" started.
+2025-03-13 07:31:01.800 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5263/metrics - null null
+2025-03-13 07:31:01.935 +06:00 [DBG] No candidates found for the request path '/metrics'
+2025-03-13 07:31:01.939 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 07:31:01.947 +06:00 [DBG] The request path  does not match the path filter
+2025-03-13 07:31:02.128 +06:00 [DBG] Connection id "0HNB1PQRFE3RM" completed keep alive response.
+2025-03-13 07:31:02.134 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5263/metrics - 200 null text/plain; version=0.0.4; charset=utf-8 341.4255ms
+2025-03-13 07:31:20.726 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-13 07:31:20.912 +06:00 [DBG] Hosting starting
+2025-03-13 07:31:21.215 +06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-03-13 07:31:21.223 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-13 07:31:21.363 +06:00 [INF] Now listening on: https://localhost:7173
+2025-03-13 07:31:21.365 +06:00 [INF] Now listening on: http://localhost:5263
+2025-03-13 07:31:21.367 +06:00 [DBG] Loaded hosting startup assembly LoggingMetricsWebApi
+2025-03-13 07:31:21.369 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-03-13 07:31:21.371 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-03-13 07:31:21.372 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-03-13 07:31:21.382 +06:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-03-13 07:31:21.385 +06:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-03-13 07:31:21.570 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-13 07:31:21.572 +06:00 [INF] Hosting environment: Development
+2025-03-13 07:31:21.573 +06:00 [INF] Content root path: D:\TestProject\LoggingMetricsWebApi
+2025-03-13 07:31:21.575 +06:00 [DBG] Hosting started
+2025-03-13 07:31:29.389 +06:00 [DBG] Connection id "0HNB1PR3N7JC6" accepted.
+2025-03-13 07:31:29.393 +06:00 [DBG] Connection id "0HNB1PR3N7JC7" accepted.
+2025-03-13 07:31:29.393 +06:00 [DBG] Connection id "0HNB1PR3N7JC6" started.
+2025-03-13 07:31:29.395 +06:00 [DBG] Connection id "0HNB1PR3N7JC7" started.
+2025-03-13 07:31:29.437 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5263/metrics - null null
+2025-03-13 07:31:29.586 +06:00 [DBG] No candidates found for the request path '/metrics'
+2025-03-13 07:31:29.588 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 07:31:29.597 +06:00 [DBG] The request path  does not match the path filter
+2025-03-13 07:31:29.805 +06:00 [DBG] Connection id "0HNB1PR3N7JC6" completed keep alive response.
+2025-03-13 07:31:29.811 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5263/metrics - 200 null text/plain; version=0.0.4; charset=utf-8 377.5881ms
+2025-03-13 07:32:45.172 +06:00 [DBG] Connection id "0HNB1PR3N7JC6" received FIN.
+2025-03-13 07:32:45.172 +06:00 [DBG] Connection id "0HNB1PR3N7JC7" received FIN.
+2025-03-13 07:32:45.220 +06:00 [DBG] Connection id "0HNB1PR3N7JC6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-13 07:32:45.220 +06:00 [DBG] Connection id "0HNB1PR3N7JC7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-13 07:32:45.223 +06:00 [DBG] Connection id "0HNB1PR3N7JC6" disconnecting.
+2025-03-13 07:32:45.233 +06:00 [DBG] Connection id "0HNB1PR3N7JC7" disconnecting.
+2025-03-13 07:32:45.237 +06:00 [DBG] Connection id "0HNB1PR3N7JC6" stopped.
+2025-03-13 07:32:45.237 +06:00 [DBG] Connection id "0HNB1PR3N7JC7" stopped.
+2025-03-13 07:33:55.998 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-13 07:33:56.124 +06:00 [DBG] Hosting starting
+2025-03-13 07:33:56.287 +06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-03-13 07:33:56.291 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-13 07:33:56.480 +06:00 [INF] Now listening on: https://localhost:7173
+2025-03-13 07:33:56.484 +06:00 [INF] Now listening on: http://localhost:5263
+2025-03-13 07:33:56.486 +06:00 [DBG] Loaded hosting startup assembly LoggingMetricsWebApi
+2025-03-13 07:33:56.488 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-03-13 07:33:56.489 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-03-13 07:33:56.491 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-03-13 07:33:56.504 +06:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-03-13 07:33:56.506 +06:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-03-13 07:33:56.556 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-13 07:33:56.558 +06:00 [INF] Hosting environment: Development
+2025-03-13 07:33:56.559 +06:00 [INF] Content root path: D:\TestProject\LoggingMetricsWebApi
+2025-03-13 07:33:56.561 +06:00 [DBG] Hosting started
+2025-03-13 07:56:04.226 +06:00 [DBG] Connection id "0HNB1Q8R8BJMB" accepted.
+2025-03-13 07:56:04.281 +06:00 [DBG] Connection id "0HNB1Q8R8BJMB" started.
+2025-03-13 07:56:04.355 +06:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5263/metrics - null null
+2025-03-13 07:56:04.568 +06:00 [DBG] No candidates found for the request path '/metrics'
+2025-03-13 07:56:04.571 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 07:56:04.583 +06:00 [DBG] The request path  does not match the path filter
+2025-03-13 07:56:04.792 +06:00 [DBG] Connection id "0HNB1Q8R8BJMB" completed keep alive response.
+2025-03-13 07:56:04.799 +06:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5263/metrics - 200 null text/plain; version=0.0.4; charset=utf-8 457.4932ms
+2025-03-13 07:56:04.858 +06:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5263/favicon.ico - null null
+2025-03-13 07:56:04.863 +06:00 [DBG] No candidates found for the request path '/favicon.ico'
+2025-03-13 07:56:04.865 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 07:56:04.870 +06:00 [DBG] The request path  does not match the path filter
+2025-03-13 07:56:04.880 +06:00 [DBG] Https port '7173' loaded from configuration.
+2025-03-13 07:56:04.884 +06:00 [DBG] Redirecting to 'https://127.0.0.1:7173/favicon.ico'.
+2025-03-13 07:56:04.890 +06:00 [DBG] Connection id "0HNB1Q8R8BJMB" completed keep alive response.
+2025-03-13 07:56:04.892 +06:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5263/favicon.ico - 307 0 null 57.5966ms
+2025-03-13 07:56:04.894 +06:00 [DBG] Connection id "0HNB1Q8R8BJMC" accepted.
+2025-03-13 07:56:04.903 +06:00 [DBG] Connection id "0HNB1Q8R8BJMC" started.
+2025-03-13 07:56:04.954 +06:00 [DBG] Connection id "0HNB1Q8R8BJMC" received FIN.
+2025-03-13 07:56:04.975 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-13 07:56:05.032 +06:00 [DBG] Connection id "0HNB1Q8R8BJMC" stopped.
+2025-03-13 07:56:05.037 +06:00 [DBG] Connection id "0HNB1Q8R8BJMC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-13 07:58:00.123 +06:00 [DBG] Connection id "0HNB1Q8R8BJMB" received FIN.
+2025-03-13 07:58:00.134 +06:00 [DBG] Connection id "0HNB1Q8R8BJMB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-13 07:58:00.161 +06:00 [DBG] Connection id "0HNB1Q8R8BJMB" disconnecting.
+2025-03-13 07:58:00.188 +06:00 [DBG] Connection id "0HNB1Q8R8BJMB" stopped.
+2025-03-13 08:04:08.008 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-13 08:04:08.140 +06:00 [DBG] Hosting starting
+2025-03-13 08:04:08.327 +06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-03-13 08:04:08.332 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-13 08:04:08.484 +06:00 [INF] Now listening on: https://localhost:7173
+2025-03-13 08:04:08.486 +06:00 [INF] Now listening on: http://localhost:5263
+2025-03-13 08:04:08.488 +06:00 [DBG] Loaded hosting startup assembly LoggingMetricsWebApi
+2025-03-13 08:04:08.490 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-03-13 08:04:08.492 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-03-13 08:04:08.493 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-03-13 08:04:08.501 +06:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-03-13 08:04:08.505 +06:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-03-13 08:04:08.561 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-13 08:04:08.562 +06:00 [INF] Hosting environment: Development
+2025-03-13 08:04:08.564 +06:00 [INF] Content root path: D:\TestProject\LoggingMetricsWebApi
+2025-03-13 08:04:08.565 +06:00 [DBG] Hosting started
+2025-03-13 08:04:14.068 +06:00 [DBG] Connection id "0HNB1QDD7S42M" accepted.
+2025-03-13 08:04:14.072 +06:00 [DBG] Connection id "0HNB1QDD7S42N" accepted.
+2025-03-13 08:04:14.072 +06:00 [DBG] Connection id "0HNB1QDD7S42M" started.
+2025-03-13 08:04:14.074 +06:00 [DBG] Connection id "0HNB1QDD7S42N" started.
+2025-03-13 08:04:14.124 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5263/metrics - null null
+2025-03-13 08:04:14.285 +06:00 [DBG] No candidates found for the request path '/metrics'
+2025-03-13 08:04:14.288 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 08:04:14.300 +06:00 [DBG] The request path  does not match the path filter
+2025-03-13 08:04:14.515 +06:00 [DBG] Connection id "0HNB1QDD7S42M" completed keep alive response.
+2025-03-13 08:04:14.520 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5263/metrics - 200 null text/plain; version=0.0.4; charset=utf-8 404.3823ms
+2025-03-13 08:05:34.028 +06:00 [DBG] Connection id "0HNB1QDD7S42N" received FIN.
+2025-03-13 08:05:34.045 +06:00 [DBG] Connection id "0HNB1QDD7S42N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-13 08:05:34.048 +06:00 [DBG] Connection id "0HNB1QDD7S42N" disconnecting.
+2025-03-13 08:05:34.051 +06:00 [DBG] Connection id "0HNB1QDD7S42N" stopped.
+2025-03-13 08:09:21.297 +06:00 [DBG] Connection id "0HNB1QDD7S42M" received FIN.
+2025-03-13 08:09:21.301 +06:00 [DBG] Connection id "0HNB1QDD7S42M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-13 08:09:21.305 +06:00 [DBG] Connection id "0HNB1QDD7S42M" disconnecting.
+2025-03-13 08:09:21.310 +06:00 [DBG] Connection id "0HNB1QDD7S42M" stopped.
+2025-03-13 08:12:18.039 +06:00 [DBG] Connection id "0HNB1QDD7S42O" accepted.
+2025-03-13 08:12:18.094 +06:00 [DBG] Connection id "0HNB1QDD7S42O" started.
+2025-03-13 08:12:18.138 +06:00 [DBG] Connection id "0HNB1QDD7S42P" accepted.
+2025-03-13 08:12:18.141 +06:00 [DBG] Connection id "0HNB1QDD7S42P" started.
+2025-03-13 08:12:18.178 +06:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5263/metrics - null null
+2025-03-13 08:12:18.226 +06:00 [DBG] No candidates found for the request path '/metrics'
+2025-03-13 08:12:18.228 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 08:12:18.233 +06:00 [DBG] The request path  does not match the path filter
+2025-03-13 08:12:18.343 +06:00 [DBG] Connection id "0HNB1QDD7S42O" completed keep alive response.
+2025-03-13 08:12:18.348 +06:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5263/metrics - 200 null text/plain; version=0.0.4; charset=utf-8 205.7344ms
+2025-03-13 08:12:18.734 +06:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5263/favicon.ico - null null
+2025-03-13 08:12:18.741 +06:00 [DBG] No candidates found for the request path '/favicon.ico'
+2025-03-13 08:12:18.744 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 08:12:18.753 +06:00 [DBG] The request path  does not match the path filter
+2025-03-13 08:12:18.784 +06:00 [DBG] Https port '7173' loaded from configuration.
+2025-03-13 08:12:18.792 +06:00 [DBG] Redirecting to 'https://127.0.0.1:7173/favicon.ico'.
+2025-03-13 08:12:18.799 +06:00 [DBG] Connection id "0HNB1QDD7S42O" completed keep alive response.
+2025-03-13 08:12:18.802 +06:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5263/favicon.ico - 307 0 null 67.178ms
+2025-03-13 08:12:19.050 +06:00 [DBG] Connection id "0HNB1QDD7S42Q" accepted.
+2025-03-13 08:12:19.052 +06:00 [DBG] Connection id "0HNB1QDD7S42Q" started.
+2025-03-13 08:12:19.108 +06:00 [DBG] Connection id "0HNB1QDD7S42Q" received FIN.
+2025-03-13 08:12:19.126 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-13 08:12:19.183 +06:00 [DBG] Connection id "0HNB1QDD7S42Q" stopped.
+2025-03-13 08:12:19.185 +06:00 [DBG] Connection id "0HNB1QDD7S42Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-13 08:13:23.714 +06:00 [DBG] Connection id "0HNB1QDD7S42P" received FIN.
+2025-03-13 08:13:23.717 +06:00 [DBG] Connection id "0HNB1QDD7S42P" disconnecting.
+2025-03-13 08:13:23.729 +06:00 [DBG] Connection id "0HNB1QDD7S42P" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-13 08:13:23.736 +06:00 [DBG] Connection id "0HNB1QDD7S42P" stopped.
+2025-03-13 08:13:56.653 +06:00 [DBG] Connection id "0HNB1QDD7S42R" accepted.
+2025-03-13 08:13:56.657 +06:00 [DBG] Connection id "0HNB1QDD7S42R" started.
+2025-03-13 08:13:59.497 +06:00 [DBG] Connection id "0HNB1QDD7S42R" received FIN.
+2025-03-13 08:13:59.500 +06:00 [DBG] Connection id "0HNB1QDD7S42R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-13 08:13:59.520 +06:00 [DBG] Connection id "0HNB1QDD7S42R" disconnecting.
+2025-03-13 08:13:59.522 +06:00 [DBG] Connection id "0HNB1QDD7S42R" stopped.
+2025-03-13 08:17:57.079 +06:00 [DBG] Connection id "0HNB1QDD7S42O" received FIN.
+2025-03-13 08:17:57.083 +06:00 [DBG] Connection id "0HNB1QDD7S42O" disconnecting.
+2025-03-13 08:17:57.099 +06:00 [DBG] Connection id "0HNB1QDD7S42O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-13 08:17:57.108 +06:00 [DBG] Connection id "0HNB1QDD7S42O" stopped.
+2025-03-13 23:28:45.707 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-13 23:28:45.857 +06:00 [DBG] Hosting starting
+2025-03-13 23:28:46.061 +06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-03-13 23:28:46.065 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-13 23:28:46.302 +06:00 [INF] Now listening on: https://localhost:7173
+2025-03-13 23:28:46.305 +06:00 [INF] Now listening on: http://localhost:5263
+2025-03-13 23:28:46.306 +06:00 [DBG] Loaded hosting startup assembly LoggingMetricsWebApi
+2025-03-13 23:28:46.308 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-03-13 23:28:46.309 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-03-13 23:28:46.310 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-03-13 23:28:46.318 +06:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-03-13 23:28:46.321 +06:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-03-13 23:28:46.475 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-13 23:28:46.476 +06:00 [INF] Hosting environment: Development
+2025-03-13 23:28:46.478 +06:00 [INF] Content root path: D:\TestProject\LoggingMetricsWebApi
+2025-03-13 23:28:46.480 +06:00 [DBG] Hosting started
+2025-03-13 23:34:44.166 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-13 23:34:44.428 +06:00 [DBG] Hosting starting
+2025-03-13 23:34:44.601 +06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-03-13 23:34:44.616 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-13 23:34:44.645 +06:00 [INF] Now listening on: http://localhost:5263
+2025-03-13 23:34:44.646 +06:00 [DBG] Loaded hosting startup assembly LoggingMetricsWebApi
+2025-03-13 23:34:44.648 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-13 23:34:44.650 +06:00 [INF] Hosting environment: Development
+2025-03-13 23:34:44.651 +06:00 [INF] Content root path: D:\TestProject\LoggingMetricsWebApi
+2025-03-13 23:34:44.653 +06:00 [DBG] Hosting started
+2025-03-13 23:34:49.658 +06:00 [INF] Application is shutting down...
+2025-03-13 23:34:49.658 +06:00 [DBG] Hosting stopping
+2025-03-13 23:34:49.672 +06:00 [DBG] Hosting stopped
+2025-03-13 23:58:25.789 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-13 23:58:25.913 +06:00 [DBG] Hosting starting
+2025-03-13 23:58:26.127 +06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-03-13 23:58:26.130 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-13 23:58:26.261 +06:00 [INF] Now listening on: https://localhost:7173
+2025-03-13 23:58:26.263 +06:00 [INF] Now listening on: http://localhost:5263
+2025-03-13 23:58:26.265 +06:00 [DBG] Loaded hosting startup assembly LoggingMetricsWebApi
+2025-03-13 23:58:26.266 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-03-13 23:58:26.267 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-03-13 23:58:26.268 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-03-13 23:58:26.276 +06:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-03-13 23:58:26.279 +06:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-03-13 23:58:26.460 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-13 23:58:26.462 +06:00 [INF] Hosting environment: Development
+2025-03-13 23:58:26.463 +06:00 [INF] Content root path: D:\TestProject\LoggingMetricsWebApi
+2025-03-13 23:58:26.465 +06:00 [DBG] Hosting started
+2025-03-13 23:58:35.102 +06:00 [DBG] Connection id "0HNB2B2MBKMJO" accepted.
+2025-03-13 23:58:35.106 +06:00 [DBG] Connection id "0HNB2B2MBKMJO" started.
+2025-03-13 23:58:35.175 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5263/ - null null
+2025-03-13 23:58:35.224 +06:00 [DBG] No candidates found for the request path '/'
+2025-03-13 23:58:35.227 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 23:58:35.240 +06:00 [DBG] The request path  does not match the path filter
+2025-03-13 23:58:35.256 +06:00 [DBG] Https port '7173' loaded from configuration.
+2025-03-13 23:58:35.260 +06:00 [DBG] Redirecting to 'https://localhost:7173/'.
+2025-03-13 23:58:35.282 +06:00 [DBG] Connection id "0HNB2B2MBKMJO" completed keep alive response.
+2025-03-13 23:58:35.287 +06:00 [DBG] Connection id "0HNB2B2MBKMJP" accepted.
+2025-03-13 23:58:35.287 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5263/ - 307 0 null 121.4716ms
+2025-03-13 23:58:35.289 +06:00 [DBG] Connection id "0HNB2B2MBKMJP" started.
+2025-03-13 23:58:35.358 +06:00 [DBG] Connection 0HNB2B2MBKMJP established using the following protocol: "Tls13"
+2025-03-13 23:58:35.390 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/ - null null
+2025-03-13 23:58:35.395 +06:00 [DBG] No candidates found for the request path '/'
+2025-03-13 23:58:35.397 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 23:58:35.400 +06:00 [DBG] The request path  does not match the path filter
+2025-03-13 23:58:35.405 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/ - 404 0 null 14.8977ms
+2025-03-13 23:58:35.411 +06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7173/, Response status code: 404
+2025-03-13 23:58:35.444 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/favicon.ico - null null
+2025-03-13 23:58:35.449 +06:00 [DBG] No candidates found for the request path '/favicon.ico'
+2025-03-13 23:58:35.453 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 23:58:35.457 +06:00 [DBG] The request path  does not match the path filter
+2025-03-13 23:58:35.460 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/favicon.ico - 404 0 null 15.6419ms
+2025-03-13 23:58:35.476 +06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7173/favicon.ico, Response status code: 404
+2025-03-13 23:58:40.760 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger - null null
+2025-03-13 23:58:40.765 +06:00 [DBG] No candidates found for the request path '/swagger'
+2025-03-13 23:58:40.767 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 23:58:40.768 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger - 301 0 null 8.394ms
+2025-03-13 23:58:40.771 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger/index.html - null null
+2025-03-13 23:58:40.781 +06:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-03-13 23:58:40.783 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 23:58:40.920 +06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-03-13 23:58:40.935 +06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-03-13 23:58:40.973 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger/index.html - 200 null text/html;charset=utf-8 201.7212ms
+2025-03-13 23:58:41.011 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger/swagger-ui.css - null null
+2025-03-13 23:58:41.016 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger/index.css - null null
+2025-03-13 23:58:41.016 +06:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2025-03-13 23:58:41.016 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger/swagger-ui-bundle.js - null null
+2025-03-13 23:58:41.036 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger/swagger-ui-standalone-preset.js - null null
+2025-03-13 23:58:41.051 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger/index.js - null null
+2025-03-13 23:58:41.063 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-13 23:58:41.068 +06:00 [DBG] No candidates found for the request path '/swagger/index.css'
+2025-03-13 23:58:41.069 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 23:58:41.073 +06:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2025-03-13 23:58:41.077 +06:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2025-03-13 23:58:41.081 +06:00 [DBG] No candidates found for the request path '/swagger/index.js'
+2025-03-13 23:58:41.086 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 23:58:41.089 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 23:58:41.090 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 23:58:41.094 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 23:58:41.138 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger/index.js - 200 null application/javascript;charset=utf-8 86.9242ms
+2025-03-13 23:58:41.139 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 86.7109ms
+2025-03-13 23:58:41.156 +06:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-13 23:58:41.199 +06:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-13 23:58:41.200 +06:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-13 23:58:41.200 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger/index.css - 200 202 text/css 184.5321ms
+2025-03-13 23:58:41.205 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger/swagger-ui.css - 200 154948 text/css 194.5366ms
+2025-03-13 23:58:41.205 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 169.3633ms
+2025-03-13 23:58:41.234 +06:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-13 23:58:41.237 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger/swagger-ui-bundle.js - 200 1466324 text/javascript 220.3434ms
+2025-03-13 23:58:41.448 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger/favicon-16x16.png - null null
+2025-03-13 23:58:41.453 +06:00 [DBG] No candidates found for the request path '/swagger/favicon-16x16.png'
+2025-03-13 23:58:41.455 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 23:58:41.457 +06:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2025-03-13 23:58:41.459 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger/favicon-16x16.png - 200 665 image/png 11.4721ms
+2025-03-13 23:58:41.485 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger/v1/swagger.json - null null
+2025-03-13 23:58:41.490 +06:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-03-13 23:58:41.492 +06:00 [DBG] Request did not match any endpoints
+2025-03-13 23:58:41.517 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 31.5223ms
+2025-03-13 23:58:44.837 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7173/WeatherForecast - null null
+2025-03-13 23:58:44.846 +06:00 [DBG] 1 candidate(s) found for the request path '/WeatherForecast'
+2025-03-13 23:58:44.849 +06:00 [DBG] Endpoint 'LoggingMetricsWebApi.Controllers.WeatherForecastController.Get (LoggingMetricsWebApi)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast'
+2025-03-13 23:58:44.853 +06:00 [DBG] Request matched endpoint 'LoggingMetricsWebApi.Controllers.WeatherForecastController.Get (LoggingMetricsWebApi)'
+2025-03-13 23:58:44.858 +06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-03-13 23:58:44.862 +06:00 [INF] Executing endpoint 'LoggingMetricsWebApi.Controllers.WeatherForecastController.Get (LoggingMetricsWebApi)'
+2025-03-13 23:58:44.894 +06:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[LoggingMetricsWebApi.Models.WeatherForecast] Get() on controller LoggingMetricsWebApi.Controllers.WeatherForecastController (LoggingMetricsWebApi).
+2025-03-13 23:58:44.898 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-13 23:58:44.900 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-13 23:58:44.903 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-13 23:58:44.906 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-13 23:58:44.909 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-13 23:58:44.914 +06:00 [DBG] Executing controller factory for controller LoggingMetricsWebApi.Controllers.WeatherForecastController (LoggingMetricsWebApi)
+2025-03-13 23:58:44.917 +06:00 [DBG] Executed controller factory for controller LoggingMetricsWebApi.Controllers.WeatherForecastController (LoggingMetricsWebApi)
+2025-03-13 23:58:44.923 +06:00 [INF] Fetching weather forecasts
+2025-03-13 23:58:44.933 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-03-13 23:58:44.944 +06:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-03-13 23:58:44.949 +06:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-03-13 23:58:44.951 +06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-03-13 23:58:44.953 +06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-03-13 23:58:44.956 +06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-03-13 23:58:44.959 +06:00 [INF] Executing ObjectResult, writing value of type 'LoggingMetricsWebApi.Models.WeatherForecast[]'.
+2025-03-13 23:58:44.987 +06:00 [INF] Executed action LoggingMetricsWebApi.Controllers.WeatherForecastController.Get (LoggingMetricsWebApi) in 70.4612ms
+2025-03-13 23:58:44.991 +06:00 [INF] Executed endpoint 'LoggingMetricsWebApi.Controllers.WeatherForecastController.Get (LoggingMetricsWebApi)'
+2025-03-13 23:58:44.994 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7173/WeatherForecast - 200 null application/json; charset=utf-8 157.0877ms
+2025-03-13 23:59:02.546 +06:00 [DBG] Connection id "0HNB2B2MBKMJQ" accepted.
+2025-03-13 23:59:02.548 +06:00 [DBG] Connection id "0HNB2B2MBKMJQ" started.
+2025-03-13 23:59:02.551 +06:00 [DBG] Connection id "0HNB2B2MBKMJR" accepted.
+2025-03-13 23:59:02.551 +06:00 [DBG] Connection id "0HNB2B2MBKMJQ" received FIN.
+2025-03-13 23:59:02.553 +06:00 [DBG] Connection id "0HNB2B2MBKMJR" started.
+2025-03-13 23:59:02.571 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-13 23:59:02.584 +06:00 [DBG] Connection 0HNB2B2MBKMJR established using the following protocol: "Tls13"
+2025-03-13 23:59:02.634 +06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7173/WeatherForecast - null null
+2025-03-13 23:59:02.634 +06:00 [DBG] Connection id "0HNB2B2MBKMJQ" stopped.
+2025-03-13 23:59:02.639 +06:00 [DBG] 1 candidate(s) found for the request path '/WeatherForecast'
+2025-03-13 23:59:02.642 +06:00 [DBG] Connection id "0HNB2B2MBKMJQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-13 23:59:02.643 +06:00 [DBG] Endpoint 'LoggingMetricsWebApi.Controllers.WeatherForecastController.Get (LoggingMetricsWebApi)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast'
+2025-03-13 23:59:02.648 +06:00 [DBG] Request matched endpoint 'LoggingMetricsWebApi.Controllers.WeatherForecastController.Get (LoggingMetricsWebApi)'
+2025-03-13 23:59:02.651 +06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-03-13 23:59:02.653 +06:00 [INF] Executing endpoint 'LoggingMetricsWebApi.Controllers.WeatherForecastController.Get (LoggingMetricsWebApi)'
+2025-03-13 23:59:02.655 +06:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[LoggingMetricsWebApi.Models.WeatherForecast] Get() on controller LoggingMetricsWebApi.Controllers.WeatherForecastController (LoggingMetricsWebApi).
+2025-03-13 23:59:02.659 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-13 23:59:02.662 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-13 23:59:02.665 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-13 23:59:02.668 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-13 23:59:02.672 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-13 23:59:02.675 +06:00 [DBG] Executing controller factory for controller LoggingMetricsWebApi.Controllers.WeatherForecastController (LoggingMetricsWebApi)
+2025-03-13 23:59:02.678 +06:00 [DBG] Executed controller factory for controller LoggingMetricsWebApi.Controllers.WeatherForecastController (LoggingMetricsWebApi)
+2025-03-13 23:59:02.680 +06:00 [INF] Fetching weather forecasts
+2025-03-13 23:59:02.682 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-03-13 23:59:02.686 +06:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-03-13 23:59:02.689 +06:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-03-13 23:59:02.691 +06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-03-13 23:59:02.693 +06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-03-13 23:59:02.694 +06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-03-13 23:59:02.696 +06:00 [INF] Executing ObjectResult, writing value of type 'LoggingMetricsWebApi.Models.WeatherForecast[]'.
+2025-03-13 23:59:02.699 +06:00 [INF] Executed action LoggingMetricsWebApi.Controllers.WeatherForecastController.Get (LoggingMetricsWebApi) in 24.3739ms
+2025-03-13 23:59:02.701 +06:00 [INF] Executed endpoint 'LoggingMetricsWebApi.Controllers.WeatherForecastController.Get (LoggingMetricsWebApi)'
+2025-03-13 23:59:02.704 +06:00 [DBG] Connection id "0HNB2B2MBKMJR" completed keep alive response.
+2025-03-13 23:59:02.706 +06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7173/WeatherForecast - 200 null application/json; charset=utf-8 72.4458ms
